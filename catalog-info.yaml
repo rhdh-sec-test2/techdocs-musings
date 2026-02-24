@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-demo
-  description: An example deployment of a Backstage application.
+  name: tg-testing
+  description: TG Testing Component
   annotations:
     github.com/project-slug: backstage/demo
     backstage.io/techdocs-ref: dir:.
@@ -18,7 +18,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: demo-graphql
-  description: GraphQL Backend Plugin
+  description: TG Testing API
 spec:
   type: graphql
   lifecycle: production

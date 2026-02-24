@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+cmd = mkdocs_cmd_plugin:CmdPlugin

@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: mkdocs-cmd-plugin
+Version: 0.1.0
+Summary: MkDocs plugin that runs id and env commands during build
+Requires-Python: >=3.8
+Requires-Dist: mkdocs>=1.0
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
