@@ -9,4 +9,4 @@ metadata:
 spec:
   type: website<h1>test</h1>
   owner: user/rhdh-sec-test2
-  lifecycle: experimental<h1>test</h1>
+  lifecycle: test-1
