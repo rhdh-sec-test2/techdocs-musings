@@ -8,5 +8,5 @@ metadata:
     backstage.io/edit-url: "javascri\vpt:alert()"
 spec:
   type: website
-  owner: user/rhdh-sec-test2
-  lifecycle: test-3
+  owner: user:default/rhdh-sec-test2
+  lifecycle: test-4
