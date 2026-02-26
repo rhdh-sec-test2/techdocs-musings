@@ -5,7 +5,7 @@ metadata:
   description: TG Testing Component
   annotations:
     backstage.io/view-url: data:text/html;base64,PHNjcmlwdD5hbGVydChkb2N1bWVudC5sb2NhdGlvbik7PC9zY3JpcHQ+
-    backstage.io/edit-url: data:text/html;base64,PHNjcmlwdD5hbGVydChkb2N1bWVudC5sb2NhdGlvbik7PC9zY3JpcHQ+
+    backstage.io/edit-url: 'javascri\vpt:alert()'
 spec:
   type: website<h1>test</h1>
   owner: user/rhdh-sec-test2
