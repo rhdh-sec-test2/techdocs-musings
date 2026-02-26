@@ -5,7 +5,7 @@ metadata:
   description: TG Testing Component
   annotations:
     github.com/project-slug: backstage/demo
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: dir:/etc/
     demo.backstage.io/techdocs-builder: local
 spec:
   type: website
