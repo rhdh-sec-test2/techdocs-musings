@@ -10,4 +10,62 @@ spec:
   type: website
   owner: user:default/rhdh-sec-test2
   lifecycle: test-8
-  
+---
+apiVersion: extensions.backstage.io/v1alpha1                                                           
+kind: Plugin                                                                                           
+metadata:                                                                                              
+  name: example-plugin                                                                                 
+  namespace: default                                                                                   
+  title: Example Plugin
+  description: An example plugin demonstrating all possible properties
+  tags:
+    - example
+    - demo
+  labels:
+    env: production
+    team: platform
+  annotations:
+    backstage.io/managed-by-location: "url:https://example.com"
+    backstage.io/source-location: "url:https://example.com/source"
+  links:
+    - url: https://example.com
+      title: Homepage
+      icon: home
+      type: website
+spec:
+  icon: https://example.com/icon.png
+  author:
+    name: Author Name
+    url: https://example.com/author
+  authors:
+    - name: First Author
+      url: https://example.com/first-author
+    - name: Second Author
+      url: https://example.com/second-author
+  publisher:
+    name: Publisher Name
+    url: https://example.com/publisher
+  categories:
+    - CI/CD
+    - Monitoring
+  highlights:
+    - Easy to install
+    - Highly configurable
+  support:
+    provider: Red Hat
+    level: generally-available
+  lifecycle: production
+  documentation:
+    - type: getting-started
+      markdown: |
+        # Getting Started
+
+        Follow these steps...
+      title: Getting Started Guide
+  assets:
+    - type: screenshot
+      filename: screenshot.png
+      originUri: https://example.com/assets/screenshot.png
+  history:
+    added: "2026-01-01"
+  installStatus: installed
