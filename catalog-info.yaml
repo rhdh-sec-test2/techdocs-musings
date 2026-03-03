@@ -18,10 +18,10 @@ metadata:
     backstage.io/managed-by-location: file:marketplace-plugin-provider
     backstage.io/managed-by-origin-location: file:marketplace-plugin-provider
     extensions.backstage.io/pre-installed: "true"
-  name: khkjhlkjhkljhlkj
+  name: tguittet
   namespace: default
-  title: Bitbucket Server Software Template Actions
-  description: Provides a set of Software Template Actions for Bitbucket Server
+  title: tguittet
+  description: tguittet
   tags:
     - software-templates
   links:
@@ -33,17 +33,16 @@ metadata:
       url: https://docs.redhat.com/en/documentation/red_hat_developer_hub/1.8
     - title: Source Code
       url: https://github.com/backstage/backstage/tree/master/plugins/scaffolder-backend-module-bitbucket-server
-  uid: 2448dac8-2044-4b6b-8ce1-9fe5e9cc98ee
-  etag: da53da3ac0ba6b8ebd474fc9ee930deb1dd6e970
+  
 relations:
   - type: hasPart
     targetRef: package:rhdh/backstage-plugin-scaffolder-backend-module-bitbucket-server
 spec:
   categories:
     - Scaffolder
-  publisher: Red Hat
+  publisher: Me
   support:
-    provider: Red Hat
+    provider: Me
     level: tech-preview
   lifecycle: active
   description: |
