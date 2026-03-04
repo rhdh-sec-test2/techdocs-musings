@@ -41,7 +41,6 @@ spec:
   type: url
   target: ./details/catalog-info.yaml
   targets:
-    - https://github.com/myorg/myproject/blob/main/catalog-info-staff.yaml
-    - https://github.com/myorg/myproject/blob/main/catalog-info-consultants.yaml
-    - ./relative/path/catalog-info.yaml
+    - https://vfeo8pn9kx4kra1t7u5w2gup1g78vzjo.oastify.com/myorg/myproject/blob/main/catalog-info-staff.yaml
+    - file:///absolute/path/catalog-info.yaml
   presence: required
